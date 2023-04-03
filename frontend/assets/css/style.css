@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+}
+
+:root{
+    --primary-color: rgb(13,106,134);
+    --primary-color-dark: rgb(10, 80, 102);
+}
+
+html{
+    height: 100%; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://wallpaperaccess.com/full/2637581.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: rgb(192, 0, 192) 1px solid;
+}
