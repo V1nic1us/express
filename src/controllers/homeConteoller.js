@@ -1,7 +1,9 @@
 exports.paginaInicial = (request, response) => {
     response.render('index')
-}
+    return;
+};
 
 exports.trataPost = (request, response) =>{
-    response.send(`Nome digitado: ${request.body.texto}`);
-}
+    response.send(request.body);
+    return;
+};
